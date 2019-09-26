@@ -12,12 +12,14 @@
 <body>
     <nav>
         <p>Minha página</p>
-        <ul>
-            <li>Serviços</li>
-            <li>Clientes</li>
-            <li>Parceiros</li>
-            <li>Time</li>
-            <li>Contato</li>
+        <ul type="square">
+            <!--Lista-->
+            <li><a href="#servicos">Serviços</a></li>
+            <!--Jogo da velha identifica que o que vem depois dele é uma ID-->
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="#time">Time</a></li>
+            <li><a href="#contato">Contato</a></li>
             <li id="imagens" onclick="redirecionar()">www.pexels.com</li>
         </ul>
     </nav>
@@ -25,13 +27,53 @@
     <section id="servicos">
         <h2>SERVIÇOS</h2>
         <p>Oferecemos os melhores serviços para desenvolver sites e apps!</p>
+        <div>
+            <img src="img/Servicos.jpeg" width="300px">
+        </div>
     </section>
 
     <section id="clientes">
         <h2>CLIENTES</h2>
         <p>Clientes sempre satisfeitos com nossos produtos!</p>
+        <div>
+            <img src="img/Time.jpeg" width="300px">
+        </div>
     </section>
 
+    <section id="parceiros">
+        <h2>PARCEIROS</h2>
+        <p>Nossos parceiros nos ajudam a entregar sempre as melhores soluções</p>
+        <div>
+            <img src="img/Parceiros.jpeg" width="300px">
+        </div>
+    </section>
+
+    <section id="time">
+        <h2>TIME</h2>
+        <p>Nosso time produz as melhores soluções</p>
+        <div>
+            <img src="img/Time2.jpeg" width="300px">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>CONTATO</h2>
+        <p>Nossos contatos:</p>
+        <div>
+            <img src="img/email.png" width="80px">
+            <!--Enviar e-mail direto da página-->
+            <p><a href="mailto:paulov_caselli@live.com">paulov_caselli@live.com</a></p>
+        </div>
+        <div>
+            <img src="img/Whats.png" width="80px">
+            <!--Ligar para o número pela página-->
+            <p><a href="tel:81999999999">(00) 90000-0000</a></p>
+        </div>
+    </section>
+
+    <footer>
+        Desenvolvido por Paulo Victor Caselli
+    </footer>
 </body>
 
 </html>
