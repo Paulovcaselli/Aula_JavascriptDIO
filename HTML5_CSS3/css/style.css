@@ -11,3 +11,14 @@ header{
     margin-left: 400px;
     margin-right: 100px;
 }
+
+/* O ponto antes do nome serve para identificar que é uma classe*/
+.img_padrao{
+    margin-bottom: 1px;
+    width: 300px;
+}
+
+.logo{
+    width: 30px;
+    margin-left: 10px;
+}
