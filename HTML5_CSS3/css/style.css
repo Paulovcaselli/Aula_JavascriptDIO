@@ -4,6 +4,10 @@
     margin-left: 20px;
 }*/
 
+.navbar{
+    background-color: blueviolet;
+}
+
 header{
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
