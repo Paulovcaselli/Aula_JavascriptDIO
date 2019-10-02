@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -7,22 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aula HTML e CSS</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <nav>
-        <p>Minha página</p>
-        <ul type="square">
-            <!--Lista-->
-            <li><a href="#servicos">Serviços</a></li>
-            <!--Jogo da velha identifica que o que vem depois dele é uma ID-->
-            <li><a href="#clientes">Clientes</a></li>
-            <li><a href="#parceiros">Parceiros</a></li>
-            <li><a href="#time">Time</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li id="imagens" onclick="redirecionar()">www.pexels.com</li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <p>Minha página</p>
+        </a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <!--Lista-->
+                <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                <!--Jogo da velha identifica que o que vem depois dele é uma ID-->
+                <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#time">Time</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" onclick="redirecionar()">www.pexels.com</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header>Minha Primeira Página</header>
